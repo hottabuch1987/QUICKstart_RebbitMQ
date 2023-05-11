@@ -1,0 +1,9 @@
+#Самый простой и быстрый способ запустить RabbitMQ:
+#docker run --rm -p 15672:15672 rabbitmq:3.10.7-management
+
+#docker-compose build
+#docker-compose run --rm webapp sh -c 'python manage.py migrate'
+#docker-compose run --rm webapp sh -c 'python manage.py createsuperuser'
+
+#docker-compose up -d
+
